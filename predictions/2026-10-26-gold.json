@@ -1,0 +1,18 @@
+{
+ "session": "2026-10-26",
+ "group": "gold",
+ "lockedAtIST": "25 Oct 2026, 1:20 pm IST",
+ "lockedAt": "2026-10-25T07:50:22.289Z",
+ "brain": "e63a54e348dd979a",
+ "predictions": [
+  {
+   "instrument": "GOLD",
+   "question": "N_H",
+   "call": "High holds (61%)",
+   "chance": 0.38990825688073394,
+   "madeAt": "2026-10-25T07:50:22.289Z",
+   "sessionStartsIST": "26 Oct 2026, 3:30 am IST",
+   "lockedBeforeStartMin": 850
+  }
+ ]
+}
