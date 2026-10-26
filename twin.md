@@ -1,7 +1,7 @@
 # Roki vs its frozen twin
 
 Updated 2026-10-26. The twin is Roki's brain exactly as first approved (`e63a54e348dd979a`, 2026-10-22); it never learns.
-Roki today runs brain `e63a54e348dd979a` (approved 2026-10-22). Both rebuild the paper record since 2026-10-22 from the same real prices.
+Roki today runs brain `e63a54e348dd979a` (approved 2026-10-26). Both rebuild the paper record since 2026-10-22 from the same real prices.
 If Roki's changes are real learning, Roki should do better than the twin over time. Small samples are mostly luck. Not investment advice.
 
 **No change approved yet:** Roki and its twin are the same brain, so their records must match. This week's check: they match (the record is reproducible).
