@@ -53,8 +53,8 @@ jobs:
           [ -n "${{ github.event.inputs.date }}" ] && D="${{ github.event.inputs.date }}"
           if [ "$T" = report ] || [ "$T" = sync ]; then
             [ "$T" = report ] && npx tsx scripts/trade-report.ts "$D" "ledger/reports/$D.md"
-            # do the dashboard, the public reports and the videos agree? (last 7 days)
-            npx tsx scripts/sync-check.ts "$(date -d "$D -6 days" +%F)" "$D" "ledger/sync/$D.md" || echo "sync check failed"
+            # does the live record agree with a rebuild from real prices? (last 2 sessions, where a rebuild is complete)
+            npx tsx scripts/sync-check.ts "$(date -d "$D -1 days" +%F)" "$D" "ledger/sync/$D.md" || echo "sync check failed"
             MSG="Trade report and sync check $D"
           elif [ "$T" = scorecard ] || [ "$T" = twin ]; then
             [ "$T" = scorecard ] && npx tsx scripts/scorecard.ts ledger/scorecard.md ledger
