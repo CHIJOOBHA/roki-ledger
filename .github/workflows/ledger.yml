@@ -1,0 +1,78 @@
+# Roki's public record: proof that the calls and trades shown in the videos are what Roki really did.
+# Every file here is written only by this job, and GitHub's commit time is the proof of when.
+#   07:10 IST Mon-Fri  lock India's night-before calls (and the red team's warnings) before the 09:15 open
+#   17:20 New York     lock gold's night-before calls (two times so it works in summer and winter time)
+#   06:50 IST daily    yesterday's trade report and price check; 18:40 IST today's Indian report
+#   Sunday 09:30 IST   weekly scorecard, frozen twin, then Roki's self-check (it may switch rules or filters off/on itself)
+# The engine that does the work is private; this job checks it out with the ENGINE_DEPLOY_KEY secret.
+name: ledger
+on:
+  schedule:
+    - cron: "40 1 * * 1-5"    # 07:10 IST, before the 09:15 Indian open
+    - cron: "20 21 * * 0-4"   # 17:20 New York in summer time (gold reopens at 18:00 New York)
+    - cron: "20 22 * * 0-4"   # 17:20 New York in winter time
+    - cron: "0 4 * * 0"       # Sunday 09:30 IST: weekly scorecard and the frozen twin
+    - cron: "20 1 * * *"      # 06:50 IST daily: full trade report for yesterday (every market's session is complete)
+    - cron: "10 13 * * 1-5"   # 18:40 IST: today's Indian trade report, ready before the 19:00 India video
+  workflow_dispatch:
+    inputs:
+      task: { description: "What to run", type: choice, options: [scorecard, india, gold, report, twin], default: scorecard }
+      date: { description: "Report date YYYY-MM-DD (empty = automatic)", required: false, default: "" }
+permissions: { contents: write }
+concurrency: { group: ledger, cancel-in-progress: false }
+jobs:
+  ledger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      BRAIN_BASELINE: 799c5ca78f1740fcad7eb45b9b07ccb16d0069f1  # the commit that first approved Roki's brain (e63a54e348dd979a, 2026-10-22); never change it
+    steps:
+      # Roki's engine is private: it is checked out with a deploy key and never published from here.
+      - uses: actions/checkout@v4
+        with: { repository: CHIJOOBHA/confluenceengine, ssh-key: "${{ secrets.ENGINE_DEPLOY_KEY }}" }
+      # This repository (the public record) goes in ./ledger
+      - uses: actions/checkout@v4
+        with: { path: ledger }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci --silent
+      - name: Run
+        run: |
+          case "${{ github.event.inputs.task || github.event.schedule }}" in
+            india|"40 1 * * 1-5") T=india ;;
+            gold|"20 21 * * 0-4"|"20 22 * * 0-4") T=gold ;;
+            report|"20 1 * * *") T=report; D=$(TZ=Asia/Kolkata date -d yesterday +%F) ;;
+            "10 13 * * 1-5") T=report; D=$(TZ=Asia/Kolkata date +%F) ;;
+            twin) T=twin ;;
+            *) T=scorecard ;;
+          esac
+          echo "task: $T"
+          [ -n "${{ github.event.inputs.date }}" ] && D="${{ github.event.inputs.date }}"
+          if [ "$T" = report ]; then npx tsx scripts/trade-report.ts "$D" "ledger/reports/$D.md"; MSG="Trade report $D"
+          elif [ "$T" = scorecard ] || [ "$T" = twin ]; then
+            [ "$T" = scorecard ] && npx tsx scripts/scorecard.ts ledger/scorecard.md ledger
+            # frozen twin: the brain exactly as first approved (commit $BRAIN_BASELINE), never learning
+            git fetch -q --depth=1 origin "$BRAIN_BASELINE" && git worktree add -q --detach /tmp/baseline FETCH_HEAD && ln -s "$PWD/node_modules" /tmp/baseline/node_modules
+            npx tsx scripts/twin.ts /tmp/baseline ledger/twin.md; MSG="Weekly scorecard and frozen twin"
+            if [ "$T" = scorecard ]; then
+              # Roki's weekly self-check: it may switch trades off or back on by itself, within fixed limits (scripts/self-learn.ts)
+              npx tsx scripts/self-learn.ts ledger
+              if ! git diff --quiet -- src/core/selfControl.ts; then
+                git config user.name "Roki self-control"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+                git add src/core/selfControl.ts src/core/brainLock.ts research/brain-changes.md
+                git commit -qm "Roki self-control: $(tail -1 research/brain-changes.md | cut -d'|' -f4 | cut -c1-120)"
+                for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done
+              fi
+            fi
+          else
+            npx tsx scripts/predictions-lock.ts lock "$T" ledger; MSG="Lock $T predictions before the session"
+          fi
+          cp research/brain-changes.md ledger/rules-changes.md   # every recorded change to Roki's rules, public
+          cd ledger
+          # file list for the public page (read from GitHub's file server, which has no API limit)
+          git ls-files --others --cached --exclude-standard | grep -v '^index.json$' | grep -v '^\.github/' | sort | python3 -c 'import json,sys; print(json.dumps([l.strip() for l in sys.stdin if l.strip()]))' > index.json
+          git config user.name "Roki ledger"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && { echo "nothing new"; exit 0; }
+          git commit -qm "$MSG"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done

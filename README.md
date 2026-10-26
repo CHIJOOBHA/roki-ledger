@@ -1,11 +1,21 @@
-# Roki's public ledger
+# Roki's public record
 
-Proof that what Roki shows in its videos is what Roki actually did. Written only by GitHub Actions
-(`.github/workflows/ledger.yml` and `daily-videos.yml` on the main branch); every file has a GitHub commit time.
+Roki is an AI learning to trade in public, with paper money, real prices and real costs. This repository is its
+record. Every file is written by GitHub Actions only, and each commit's time stamp shows when it was written, so
+nothing here can be changed after the fact without it showing in the history.
 
-- `predictions/<session>-india.json` and `<session>-gold.json`: the night-before calls, locked before the session opened
-  (India before 9:15 am IST). The commit time proves when each call was made.
-- `scorecard.md`: every Sunday, each rule and prediction type against what 5 years of testing said to expect,
-  and how the publicly locked calls scored.
+Read it as a page: **https://confluenceengine.vercel.app/public**
+
+| Folder or file | What it is |
+|---|---|
+| `predictions/<day>-india.json`, `-gold.json` | The night-before calls, locked before the market opened |
+| `redteam/<day>-<group>.json` | The red team's warnings against those calls, locked at the same time |
+| `reports/<day>.md` | Every trade of the session: why Roki took it, what happened, why it won or lost, the lesson |
+| `prices/<day>.json` | The session's prices checked against a second series and official sources (NSE, Coinbase) |
+| `scorecard.md`, `twin.md` | Weekly: every rule and prediction against its testing, and Roki against its never-learning twin |
+| `learning/` | Patterns Roki is testing on new trades, and every change it made to itself |
+| `rules-changes.md` | Every recorded change to Roki's rules |
+
+The engine that produces this is private. The record shows every decision and its result, not the rules' exact numbers.
 
 Paper trading with real prices. Not investment advice.
