@@ -16,7 +16,7 @@ on:
     - cron: "10 13 * * 1-5"   # 18:40 IST: today's Indian trade report, ready before the 19:00 India video
   workflow_dispatch:
     inputs:
-      task: { description: "What to run", type: choice, options: [scorecard, india, gold, report, twin], default: scorecard }
+      task: { description: "What to run", type: choice, options: [scorecard, india, gold, report, twin, sync], default: scorecard }
       date: { description: "Report date YYYY-MM-DD (empty = automatic)", required: false, default: "" }
 permissions: { contents: write }
 concurrency: { group: ledger, cancel-in-progress: false }
@@ -25,6 +25,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
+      APP_URL: ${{ secrets.APP_URL }}
+      CRON_SECRET: ${{ secrets.CRON_SECRET }}
       BRAIN_BASELINE: 799c5ca78f1740fcad7eb45b9b07ccb16d0069f1  # the commit that first approved Roki's brain (e63a54e348dd979a, 2026-10-22); never change it
     steps:
       # Roki's engine is private: it is checked out with a deploy key and never published from here.
@@ -44,11 +46,16 @@ jobs:
             report|"20 1 * * *") T=report; D=$(TZ=Asia/Kolkata date -d yesterday +%F) ;;
             "10 13 * * 1-5") T=report; D=$(TZ=Asia/Kolkata date +%F) ;;
             twin) T=twin ;;
+            sync) T=sync; D=$(TZ=Asia/Kolkata date -d yesterday +%F) ;;
             *) T=scorecard ;;
           esac
           echo "task: $T"
           [ -n "${{ github.event.inputs.date }}" ] && D="${{ github.event.inputs.date }}"
-          if [ "$T" = report ]; then npx tsx scripts/trade-report.ts "$D" "ledger/reports/$D.md"; MSG="Trade report $D"
+          if [ "$T" = report ] || [ "$T" = sync ]; then
+            [ "$T" = report ] && npx tsx scripts/trade-report.ts "$D" "ledger/reports/$D.md"
+            # do the dashboard, the public reports and the videos agree? (last 7 days)
+            npx tsx scripts/sync-check.ts "$(date -d "$D -6 days" +%F)" "$D" "ledger/sync/$D.md" || echo "sync check failed"
+            MSG="Trade report and sync check $D"
           elif [ "$T" = scorecard ] || [ "$T" = twin ]; then
             [ "$T" = scorecard ] && npx tsx scripts/scorecard.ts ledger/scorecard.md ledger
             # frozen twin: the brain exactly as first approved (commit $BRAIN_BASELINE), never learning
