@@ -1,1 +1,90 @@
-[]
+[
+ {
+  "id": "GAPFADE30|US stock|big_prev",
+  "strategy": "GAPFADE30",
+  "market": "US stock",
+  "condition": "big_prev",
+  "text": "yesterday's range was big (above 1.5× normal)",
+  "effect": "better",
+  "foundOn": "2026-11-08",
+  "atFound": {
+   "inside": {
+    "n": 8,
+    "wins": 8,
+    "avg": 1.217
+   },
+   "outside": {
+    "n": 15,
+    "wins": 6,
+    "avg": -0.73
+   },
+   "t": 3.79
+  }
+ },
+ {
+  "id": "GAPFADE30|US stock|with_trend",
+  "strategy": "GAPFADE30",
+  "market": "US stock",
+  "condition": "with_trend",
+  "text": "the trade was with the 50-day trend",
+  "effect": "better",
+  "foundOn": "2026-11-08",
+  "atFound": {
+   "inside": {
+    "n": 13,
+    "wins": 11,
+    "avg": 0.685
+   },
+   "outside": {
+    "n": 10,
+    "wins": 3,
+    "avg": -1.012
+   },
+   "t": 2.96
+  }
+ },
+ {
+  "id": "GAPFADE30|US stock|against_trend",
+  "strategy": "GAPFADE30",
+  "market": "US stock",
+  "condition": "against_trend",
+  "text": "the trade was against the 50-day trend",
+  "effect": "worse",
+  "foundOn": "2026-11-08",
+  "atFound": {
+   "inside": {
+    "n": 10,
+    "wins": 3,
+    "avg": -1.012
+   },
+   "outside": {
+    "n": 13,
+    "wins": 11,
+    "avg": 0.685
+   },
+   "t": -2.96
+  }
+ },
+ {
+  "id": "GAPFADE|US stock|big_prev",
+  "strategy": "GAPFADE",
+  "market": "US stock",
+  "condition": "big_prev",
+  "text": "yesterday's range was big (above 1.5× normal)",
+  "effect": "better",
+  "foundOn": "2026-11-08",
+  "atFound": {
+   "inside": {
+    "n": 10,
+    "wins": 8,
+    "avg": 0.953
+   },
+   "outside": {
+    "n": 17,
+    "wins": 6,
+    "avg": -0.561
+   },
+   "t": 2.34
+  }
+ }
+]
