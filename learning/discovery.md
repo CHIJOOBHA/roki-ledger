@@ -11,7 +11,7 @@ Passing ideas trade as learning-only for 30 live trades, then become counted rul
 |---|---|---|---|---|
 | Opposite of: Small gap fill | US indices | trial | 2026-11-09 | 5-year test: 446 trades +0.17% (t 4.1) before 2024-06-20, 388 trades +0.12% (t 3.6) after |
 
-## This week's tests (408)
+## This week's tests (430)
 
 | Idea | Source | Market | Older half: trades, average, t | Newer half: trades, average, t | Result |
 |---|---|---|---|---|---|
@@ -52,6 +52,7 @@ Passing ideas trade as learning-only for 30 live trades, then become counted rul
 | Opposite of: Fade gaps when India VIX is high | idea bank (macro) | Indian stocks | 228, −0.30%, -2.8 | 79, +0.16%, 0.9 | failed |
 | Inside-day breakout up | idea bank | Commodities | 91, −0.19%, -1.3 | 102, +0.13%, 0.9 | failed |
 | Opposite of: Stretched far above the 50-day average | idea bank | Crypto | 334, +0.23%, 1.0 | 264, +0.24%, 0.9 | failed |
+| Opposite of: Indices disagreed at the low: fade | owner's rule: three indices | Indian indices | 113, −0.29%, -4.3 | 113, +0.05%, 0.9 | failed |
 | Opposite of: Buy the dip in an uptrend | idea bank | US stocks | 223, +0.05%, 0.4 | 236, +0.08%, 0.8 | failed |
 | Open above yesterday's high, fade | idea bank | Indian stocks | 230, −0.03%, -0.5 | 208, +0.06%, 0.8 | failed |
 | Reversal after a big down day | idea bank | Indian indices | 40, +0.18%, 1.3 | 38, +0.08%, 0.8 | failed |
@@ -156,12 +157,14 @@ Passing ideas trade as learning-only for 30 live trades, then become counted rul
 | Fade breaks in a wild market | idea bank | Commodities | 57, −0.17%, -0.7 | 66, −0.07%, -0.2 | failed |
 | Opposite of: NR7 breakout up | idea bank | Indian indices | 99, −0.15%, -2.5 | 85, −0.01%, -0.2 | failed |
 | Opposite of: Strong close follow-through | idea bank | Commodities | 125, −0.17%, -1.5 | 161, −0.02%, -0.2 | failed |
+| All three broke the high: follow | owner's rule: three indices | Indian indices | 171, −0.17%, -3.6 | 213, −0.01%, -0.2 | failed |
 | Opposite of: Follow a strong US night in India | idea bank (macro) | Indian stocks | 135, −0.11%, -1.4 | 105, −0.02%, -0.2 | failed |
 | Breakdown in the trend's direction | idea bank | Indian indices | 123, −0.59%, -7.8 | 139, −0.01%, -0.2 | failed |
 | Stretched far below the 50-day average | idea bank | Indian stocks | 185, −0.00%, -0.0 | 326, −0.02%, -0.2 | failed |
 | Opposite of: Two strong days down | idea bank | US stocks | 172, +0.19%, 1.0 | 136, −0.04%, -0.2 | failed |
 | Open above yesterday's high, fade | idea bank | US indices | 76, −0.31%, -3.3 | 51, −0.02%, -0.2 | failed |
 | Opposite of: Gap away from a balanced day | idea bank | Commodities | 89, −0.23%, -2.3 | 152, −0.04%, -0.2 | failed |
+| Opposite of: Bank Nifty led yesterday | owner's rule: three indices | Indian indices | 261, −0.03%, -0.5 | 234, −0.01%, -0.2 | failed |
 | Oil follows its own big move | idea bank (macro) | Commodities | 156, +0.06%, 0.4 | 186, −0.06%, -0.3 | failed |
 | NR7 breakout up | idea bank | US stocks | 173, +0.05%, 0.5 | 194, −0.02%, -0.3 | failed |
 | Opposite of: Two strong days up | idea bank | US stocks | 331, −0.21%, -2.5 | 241, −0.03%, -0.3 | failed |
@@ -204,6 +207,7 @@ Passing ideas trade as learning-only for 30 live trades, then become counted rul
 | Opposite of: Breakdown in the trend's direction | idea bank | Indian stocks | 166, +0.01%, 0.2 | 204, −0.04%, -0.6 | failed |
 | Opposite of: Stretched far above the 50-day average | idea bank | US stocks | 589, +0.01%, 0.2 | 493, −0.04%, -0.7 | failed |
 | Opposite of: Fade breaks in a wild market | idea bank | US indices | 27, +0.09%, 0.7 | 51, −0.07%, -0.7 | failed |
+| Opposite of: Sensex and Nifty pulled apart | owner's rule: three indices | Indian indices | 6, −0.00%, -0.0 | 27, −0.05%, -0.7 | failed |
 | Opposite of: Short-term overbought fade | idea bank | Indian indices | 198, −0.11%, -2.7 | 159, −0.04%, -0.7 | failed |
 | Opposite of: NR7 breakout up | idea bank | Commodities | 133, −0.02%, -0.2 | 132, −0.09%, -0.7 | failed |
 | Short-term oversold bounce | idea bank | Crypto | 210, −0.24%, -0.6 | 164, −0.27%, -0.7 | failed |
@@ -242,6 +246,8 @@ Passing ideas trade as learning-only for 30 live trades, then become counted rul
 | Opposite of: Two strong days up | idea bank | Commodities | 126, −0.04%, -0.3 | 160, −0.13%, -1.0 | failed |
 | Strong close follow-through | idea bank | Commodities | 125, +0.03%, 0.3 | 161, −0.11%, -1.0 | failed |
 | Short-term oversold bounce | idea bank | Commodities | 103, −0.07%, -0.7 | 112, −0.18%, -1.0 | failed |
+| Bank Nifty led yesterday | owner's rule: three indices | Indian stocks | 435, −0.16%, -2.7 | 390, −0.07%, -1.0 | failed |
+| Bank Nifty lagged yesterday | owner's rule: three indices | Indian stocks | 420, −0.03%, -0.6 | 365, −0.06%, -1.0 | failed |
 | Fade breaks in a wild market | idea bank | US indices | 27, −0.13%, -1.0 | 51, −0.10%, -1.0 | failed |
 | Opposite of: Open above yesterday's high, fade | idea bank | US stocks | 207, +0.17%, 1.2 | 215, −0.13%, -1.1 | failed |
 | Opposite of: Reversal after a big up day | idea bank | Commodities | 27, +0.00%, 0.0 | 26, −0.46%, -1.1 | failed |
@@ -256,6 +262,7 @@ Passing ideas trade as learning-only for 30 live trades, then become counted rul
 | Friday drift with the trend | idea bank | Crypto | 635, −0.00%, -0.0 | 625, −0.16%, -1.1 | failed |
 | Opposite of: Inside-day breakout up | idea bank | US indices | 42, −0.08%, -0.8 | 57, −0.07%, -1.1 | failed |
 | Inside-day breakout down | idea bank | Indian stocks | 118, −0.14%, -1.5 | 148, −0.09%, -1.2 | failed |
+| Opposite of: All three broke the high: follow | owner's rule: three indices | Indian stocks | 370, −0.03%, -0.6 | 357, −0.06%, -1.2 | failed |
 | Breakout in the trend's direction | idea bank | Crypto | 571, −0.22%, -1.2 | 496, −0.20%, -1.2 | failed |
 | Opposite of: Two strong days up | idea bank | Indian indices | 171, +0.02%, 0.3 | 142, −0.06%, -1.2 | failed |
 | Opposite of: Fade breaks up in a wild market | idea bank | Indian indices | 52, −0.09%, -1.0 | 46, −0.15%, -1.2 | failed |
@@ -268,6 +275,7 @@ Passing ideas trade as learning-only for 30 live trades, then become counted rul
 | Gap and go with the trend | idea bank | Indian indices | 364, −0.15%, -4.0 | 283, −0.05%, -1.2 | failed |
 | Breakdown in the trend's direction | idea bank | US indices | 135, −0.16%, -1.9 | 75, −0.12%, -1.2 | failed |
 | Opposite of: NR7 breakout down | idea bank | Indian stocks | 195, −0.13%, -2.1 | 191, −0.08%, -1.3 | failed |
+| Bank Nifty lagged yesterday | owner's rule: three indices | Indian indices | 252, +0.07%, 1.3 | 217, −0.06%, -1.3 | failed |
 | Opposite of: Reversal after a big up day | idea bank | US indices | 20, +0.00%, 0.0 | 17, −0.44%, -1.3 | failed |
 | Opposite of: Stretched far below the 50-day average | idea bank | US stocks | 172, −0.42%, -2.3 | 80, −0.35%, -1.3 | failed |
 | Opposite of: Sell the rally in a downtrend | idea bank | Commodities | 124, −0.22%, -1.6 | 102, −0.22%, -1.3 | failed |
@@ -277,6 +285,7 @@ Passing ideas trade as learning-only for 30 live trades, then become counted rul
 | Reversal after a big down day | idea bank | Crypto | 86, +1.08%, 1.7 | 67, −0.62%, -1.3 | failed |
 | Opposite of: Failed new high after an up day | idea bank | Commodities | 82, −0.31%, -2.5 | 78, −0.22%, -1.3 | failed |
 | Opposite of: Buy the dip in an uptrend | idea bank | Indian stocks | 198, −0.04%, -0.6 | 153, −0.13%, -1.4 | failed |
+| Sensex and Nifty pulled apart | owner's rule: three indices | Indian indices | 6, −0.14%, -0.3 | 27, −0.12%, -1.4 | failed |
 | Opposite of: Short-term oversold bounce | idea bank | Indian indices | 126, −0.06%, -0.7 | 136, −0.09%, -1.4 | failed |
 | Buy India after a US selloff gap | idea bank (macro) | Indian indices | 156, −0.08%, -1.3 | 96, −0.12%, -1.4 | failed |
 | Opposite of: Failed new high after an up day | idea bank | US indices | 29, −0.02%, -0.2 | 57, −0.12%, -1.5 | failed |
@@ -285,6 +294,7 @@ Passing ideas trade as learning-only for 30 live trades, then become counted rul
 | Open below yesterday's low, fade | idea bank | US stocks | 239, −0.03%, -0.4 | 209, −0.15%, -1.5 | failed |
 | Quiet market breakout up | idea bank | Indian indices | 81, −0.19%, -3.0 | 100, −0.07%, -1.5 | failed |
 | Opposite of: Friday drift with the trend | idea bank | Crypto | 635, −0.20%, -1.4 | 625, −0.20%, -1.5 | failed |
+| Opposite of: Bank Nifty lagged yesterday | owner's rule: three indices | Indian stocks | 420, −0.19%, -3.2 | 365, −0.10%, -1.5 | failed |
 | Gap away from a balanced day | idea bank | Indian indices | 143, −0.24%, -4.7 | 129, −0.09%, -1.5 | failed |
 | Quiet market breakout up | idea bank | US stocks | 121, +0.11%, 0.8 | 177, −0.13%, -1.5 | failed |
 | Opposite of: Short-term overbought fade | idea bank | Indian stocks | 201, −0.27%, -3.8 | 200, −0.14%, -1.6 | failed |
@@ -306,12 +316,14 @@ Passing ideas trade as learning-only for 30 live trades, then become counted rul
 | Quiet market breakout up | idea bank | Indian stocks | 113, −0.09%, -1.1 | 106, −0.18%, -1.8 | failed |
 | Inside-day breakout down | idea bank | Indian indices | 64, −0.27%, -2.9 | 74, −0.11%, -1.8 | failed |
 | Opposite of: Gap and go with the trend | idea bank | Indian indices | 364, +0.04%, 1.1 | 283, −0.07%, -1.8 | failed |
+| Opposite of: Bank Nifty lagged yesterday | owner's rule: three indices | Indian indices | 252, −0.16%, -3.0 | 217, −0.08%, -1.8 | failed |
 | Weak close follow-through | idea bank | US stocks | 170, −0.14%, -0.9 | 137, −0.27%, -1.8 | failed |
 | Opposite of: Reversal after a big up day | idea bank | Crypto | 144, −0.19%, -0.6 | 123, −0.66%, -1.8 | failed |
 | Opposite of: Quiet market breakout up | idea bank | Indian indices | 81, −0.05%, -0.9 | 100, −0.10%, -1.8 | failed |
 | Failed new low after a down day | idea bank | Crypto | 248, +0.04%, 0.2 | 316, −0.36%, -1.8 | failed |
 | Opposite of: Monday gap fade | idea bank | Indian stocks | 230, −0.15%, -1.7 | 250, −0.17%, -1.8 | failed |
 | Opposite of: Short-term oversold bounce | idea bank | Indian stocks | 193, −0.08%, -0.8 | 221, −0.15%, -1.8 | failed |
+| Indices disagreed at the low: fade | owner's rule: three indices | Indian stocks | 164, −0.01%, -0.2 | 192, −0.10%, -1.8 | failed |
 | Opposite of: Fade breaks up in a wild market | idea bank | Indian stocks | 72, −0.18%, -1.8 | 52, −0.29%, -1.8 | failed |
 | Two strong days down | idea bank | Indian stocks | 156, −0.04%, -0.4 | 216, −0.16%, -1.8 | failed |
 | Gap and go with the trend | idea bank | Indian stocks | 473, −0.24%, -4.0 | 494, −0.11%, -1.8 | failed |
@@ -320,14 +332,18 @@ Passing ideas trade as learning-only for 30 live trades, then become counted rul
 | Two strong days down | idea bank | Crypto | 237, −0.21%, -0.6 | 210, −0.49%, -1.9 | failed |
 | Opposite of: Failed new high after an up day | idea bank | Crypto | 338, −0.79%, -3.8 | 301, −0.39%, -1.9 | failed |
 | Open below yesterday's low, fade | idea bank | Indian stocks | 213, −0.12%, -1.8 | 165, −0.14%, -1.9 | failed |
+| Indices disagreed at the high: fade | owner's rule: three indices | Indian indices | 91, −0.15%, -2.6 | 107, −0.09%, -1.9 | failed |
+| Bank Nifty led yesterday | owner's rule: three indices | Indian indices | 261, −0.10%, -2.0 | 234, −0.10%, -1.9 | failed |
 | Opposite of: Inside-day breakout up | idea bank | Commodities | 91, −0.14%, -1.0 | 102, −0.28%, -2.0 | failed |
 | Opposite of: Inside-day breakout up | idea bank | Indian stocks | 129, −0.33%, -4.5 | 160, −0.15%, -2.0 | failed |
 | Inside-day breakout down | idea bank | US stocks | 84, −0.18%, -1.1 | 119, −0.24%, -2.0 | failed |
+| Opposite of: Bank Nifty led yesterday | owner's rule: three indices | Indian stocks | 435, −0.05%, -0.8 | 390, −0.13%, -2.0 | failed |
 | Quiet market breakout down | idea bank | Commodities | 81, −0.26%, -1.4 | 136, −0.26%, -2.0 | failed |
 | Opposite of: Stretched far above the 50-day average | idea bank | US indices | 243, +0.03%, 0.7 | 251, −0.06%, -2.0 | failed |
 | Fade breaks up in a wild market | idea bank | US stocks | 48, −0.29%, -1.2 | 119, −0.26%, -2.0 | failed |
 | Opposite of: Failed new high after an up day | idea bank | US stocks | 90, −0.15%, -1.0 | 104, −0.26%, -2.0 | failed |
 | Opposite of: Sell the rally in a downtrend | idea bank | Crypto | 273, −0.05%, -0.2 | 217, −0.43%, -2.0 | failed |
+| Opposite of: Indices disagreed at the high: fade | owner's rule: three indices | Indian indices | 91, −0.14%, -1.8 | 107, −0.11%, -2.1 | failed |
 | Opposite of: Inside-day breakout down | idea bank | Indian indices | 64, −0.08%, -1.1 | 74, −0.11%, -2.1 | failed |
 | Opposite of: Ride the trend when India VIX is low | idea bank (macro) | Indian indices | 211, −0.10%, -3.2 | 257, −0.06%, -2.1 | failed |
 | Opposite of: Quiet market breakout up | idea bank | Indian stocks | 113, −0.19%, -2.5 | 106, −0.18%, -2.1 | failed |
@@ -338,6 +354,7 @@ Passing ideas trade as learning-only for 30 live trades, then become counted rul
 | Breakout in the trend's direction | idea bank | Indian stocks | 257, −0.15%, -2.4 | 236, −0.14%, -2.2 | failed |
 | Monday gap fade | idea bank | US indices | 45, −0.26%, -2.2 | 85, −0.16%, -2.2 | failed |
 | Quiet market breakout down | idea bank | US indices | 68, −0.15%, -1.9 | 76, −0.13%, -2.2 | failed |
+| Indices disagreed at the high: fade | owner's rule: three indices | Indian stocks | 198, −0.16%, -2.4 | 219, −0.13%, -2.2 | failed |
 | Opposite of: Gap and go with the trend | idea bank | US indices | 149, −0.15%, -1.9 | 158, −0.15%, -2.2 | failed |
 | Opposite of: Quiet market breakout down | idea bank | Indian indices | 92, −0.14%, -2.3 | 107, −0.10%, -2.2 | failed |
 | Opposite of: Reversal after a big up day | idea bank | Indian stocks | 50, −0.41%, -2.7 | 67, −0.33%, -2.2 | failed |
@@ -362,6 +379,7 @@ Passing ideas trade as learning-only for 30 live trades, then become counted rul
 | Follow a strong US night in India | idea bank (macro) | Indian indices | 50, −0.24%, -2.5 | 39, −0.25%, -2.5 | failed |
 | Strong close follow-through | idea bank | Indian indices | 134, −0.14%, -2.5 | 145, −0.12%, -2.5 | failed |
 | Opposite of: Stretched far below the 50-day average | idea bank | Indian stocks | 185, −0.18%, -2.0 | 326, −0.18%, -2.5 | failed |
+| Opposite of: Indices disagreed at the high: fade | owner's rule: three indices | Indian stocks | 198, −0.16%, -2.1 | 219, −0.18%, -2.6 | failed |
 | Opposite of: Breakout in the trend's direction | idea bank | Commodities | 158, −0.20%, -2.1 | 202, −0.29%, -2.6 | failed |
 | Breakout in the trend's direction | idea bank | US stocks | 250, +0.13%, 1.4 | 326, −0.17%, -2.6 | failed |
 | Two strong days down | idea bank | Indian indices | 81, −0.26%, -2.5 | 140, −0.16%, -2.6 | failed |
@@ -386,6 +404,7 @@ Passing ideas trade as learning-only for 30 live trades, then become counted rul
 | Opposite of: Small gap fill | idea bank | Indian stocks | 1129, −0.17%, -5.2 | 1100, −0.10%, -3.1 | failed |
 | Ride the trend when India VIX is low | idea bank (macro) | Indian indices | 211, −0.01%, -0.3 | 257, −0.09%, -3.1 | failed |
 | Opposite of: Inside-day breakout down | idea bank | Crypto | 452, −0.65%, -5.0 | 382, −0.43%, -3.1 | failed |
+| Opposite of: All three broke the high: follow | owner's rule: three indices | Indian indices | 171, +0.02%, 0.5 | 213, −0.12%, -3.2 | failed |
 | Opposite of: Stretched far below the 50-day average | idea bank | Crypto | 437, +0.02%, 0.1 | 249, −0.76%, -3.2 | failed |
 | NR7 breakout up | idea bank | Indian indices | 99, −0.09%, -1.5 | 85, −0.18%, -3.2 | failed |
 | Opposite of: Strong close follow-through | idea bank | Crypto | 320, −0.18%, -0.9 | 308, −0.57%, -3.2 | failed |
@@ -397,20 +416,23 @@ Passing ideas trade as learning-only for 30 live trades, then become counted rul
 | Ride the trend when India VIX is low | idea bank (macro) | Indian stocks | 423, −0.11%, -2.6 | 474, −0.15%, -3.5 | failed |
 | Opposite of: Friday drift with the trend | idea bank | Indian indices | 156, −0.03%, -0.5 | 215, −0.18%, -3.5 | failed |
 | Opposite of: Stretched far above the 50-day average | idea bank | Indian stocks | 301, −0.12%, -2.3 | 238, −0.24%, -3.6 | failed |
+| Indices disagreed at the low: fade | owner's rule: three indices | Indian indices | 113, +0.06%, 1.0 | 113, −0.20%, -3.6 | failed |
 | Opposite of: Failed new low after a down day | idea bank | Commodities | 93, −0.17%, -1.0 | 79, −0.89%, -3.6 | failed |
 | Opposite of: Reversal after a big up day | idea bank | Indian indices | 25, −0.26%, -2.6 | 39, −0.29%, -3.6 | failed |
 | Opposite of: Failed new low after a down day | idea bank | Indian stocks | 98, −0.49%, -4.5 | 110, −0.33%, -3.6 | failed |
 | Breakdown in the trend's direction | idea bank | Crypto | 221, −0.11%, -0.3 | 359, −0.75%, -3.6 | failed |
+| All three broke the high: follow | owner's rule: three indices | Indian stocks | 370, −0.22%, -4.3 | 357, −0.20%, -3.7 | failed |
 | Opposite of: Stretched far above the 50-day average | idea bank | Indian indices | 410, −0.07%, -2.4 | 229, −0.16%, -3.8 | failed |
 | Small gap fill | idea bank | US stocks | 1166, −0.09%, -2.5 | 1036, −0.13%, -3.8 | failed |
 | Breakdown in the trend's direction | idea bank | US stocks | 192, +0.16%, 1.4 | 190, −0.52%, -4.3 | failed |
-| Breakdown in the trend's direction | idea bank | Indian stocks | 166, −0.31%, -3.8 | 204, −0.29%, -4.3 | failed |
 | Opposite of: NR7 breakout up | idea bank | Crypto | 389, −0.50%, -3.7 | 423, −0.45%, -4.3 | failed |
+| Breakdown in the trend's direction | idea bank | Indian stocks | 166, −0.31%, -3.8 | 204, −0.29%, -4.3 | failed |
 | Opposite of: Failed new high after an up day | idea bank | Indian stocks | 116, −0.39%, -4.5 | 116, −0.38%, -4.4 | failed |
 | Opposite of: NR7 breakout down | idea bank | Indian indices | 94, −0.05%, -0.8 | 103, −0.23%, -4.5 | failed |
 | Opposite of: Buy the dip in an uptrend | idea bank | Indian indices | 153, +0.00%, 0.1 | 126, −0.23%, -4.5 | failed |
 | Fade gaps when India VIX is high | idea bank (macro) | Indian indices | 171, −0.09%, -1.3 | 61, −0.50%, -4.5 | failed |
 | Opposite of: Small gap fill | idea bank | Indian indices | 664, −0.12%, -3.7 | 616, −0.11%, -4.5 | failed |
+| Opposite of: Indices disagreed at the low: fade | owner's rule: three indices | Indian stocks | 164, −0.25%, -3.0 | 192, −0.32%, -4.6 | failed |
 | Quiet market breakout down | idea bank | Indian stocks | 125, −0.28%, -3.7 | 93, −0.37%, -4.8 | failed |
 | Opposite of: NR7 breakout down | idea bank | Crypto | 432, −0.67%, -4.9 | 406, −0.60%, -4.8 | failed |
 | Opposite of: Failed new low after a down day | idea bank | Indian indices | 69, −0.32%, -2.7 | 74, −0.34%, -5.1 | failed |
