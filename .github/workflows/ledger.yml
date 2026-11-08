@@ -3,7 +3,7 @@
 #   07:10 IST Mon-Fri  lock India's night-before calls (and the red team's warnings) before the 09:15 open
 #   17:20 New York     lock gold's night-before calls (two times so it works in summer and winter time)
 #   06:50 IST daily    yesterday's trade report, price check and a full backup of the record; 18:40 IST today's Indian report
-#   Sunday 09:30 IST   weekly scorecard, frozen twin, then Roki's self-check (it may switch rules or filters off/on itself)
+#   Sunday 09:30 IST   weekly scorecard, frozen twin, Roki's self-check, the AI analyst's ideas, and self-research (new rules)
 # The engine that does the work is private; this job checks it out with the ENGINE_DEPLOY_KEY secret.
 name: ledger
 on:
@@ -27,6 +27,7 @@ jobs:
     env:
       APP_URL: ${{ secrets.APP_URL }}
       CRON_SECRET: ${{ secrets.CRON_SECRET }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       BRAIN_BASELINE: 799c5ca78f1740fcad7eb45b9b07ccb16d0069f1  # the commit that first approved Roki's brain (e63a54e348dd979a, 2026-10-22); never change it
     steps:
       # Roki's engine is private: it is checked out with a deploy key and never published from here.
@@ -66,10 +67,15 @@ jobs:
             if [ "$T" = scorecard ]; then
               # Roki's weekly self-check: it may switch trades off or back on by itself, within fixed limits (scripts/self-learn.ts)
               npx tsx scripts/self-learn.ts ledger
-              if ! git diff --quiet -- src/core/selfControl.ts; then
+              # the weekly AI analyst explains wins and losses like an expert and proposes new ideas (needs ANTHROPIC_API_KEY)
+              npx tsx scripts/analyst.ts ledger || echo "analyst failed"
+              # self-research: test every idea on 5 years; start trials, promote or drop Roki's own rules (scripts/discover.ts)
+              npx tsx scripts/discover.ts ledger || echo "discover failed"
+              CHANGED="src/core/selfControl.ts src/core/discovered.ts src/core/brainLock.ts research/brain-changes.md research/ideas.json"
+              if ! git diff --quiet -- $CHANGED; then
                 git config user.name "Roki self-control"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-                git add src/core/selfControl.ts src/core/brainLock.ts research/brain-changes.md
-                git commit -qm "Roki self-control: $(tail -1 research/brain-changes.md | cut -d'|' -f4 | cut -c1-120)"
+                git add $CHANGED
+                git commit -qm "Roki self-learning: $(tail -1 research/brain-changes.md | cut -d'|' -f4 | cut -c1-120)"
                 for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done
               fi
             fi
