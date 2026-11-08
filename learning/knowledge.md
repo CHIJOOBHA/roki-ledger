@@ -55,6 +55,6 @@ the same meanings. Ideas built on any of these are only trusted after Roki's 5-y
 | Stop-loss | A planned exit when wrong | Caps the loss of one trade | 1 normal day's move on every trade |
 | Daily loss limit | Stop trading after a bad day | Prevents one bad day becoming a disaster | Portfolio risk desk: no new counted trades after -2% across markets |
 | Correlation | Markets that move together | Three Indian index buys are really one bet | At most 3 counted same-direction trades per market group a day |
-| Position sizing | How much to put on each trade | The same idea can win or ruin depending on size | Fixed paper size per trade today; volatility-based sizing planned |
-| Drawdown | Fall from the best point | What investors feel; decides if a system survives | Shown in the portfolio; not yet used to cut size |
-| Overfitting and luck | A rule that fit the past by chance | Most backtested "edges" are luck | Two-half test, minimum 40 trades, strict t-statistics, live trial before counting |
+| Position sizing | How much to put on each trade | The same idea can win or ruin depending on size | Each trade is sized so its safety stop loses about 1% of its paper size: bigger in calm markets, smaller in wild ones |
+| Drawdown | Fall from the best point | What investors feel; decides if a system survives | Brake: half size from 5% below the best point, counted trading paused from 10% until it recovers |
+| Overfitting and luck | A rule that fit the past by chance | Most backtested "edges" are luck | Two-half test, minimum 40 trades, strict t-statistics, a luck check across all tests (Benjamini-Hochberg), live trial before counting |

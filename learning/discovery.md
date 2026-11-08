@@ -2,6 +2,7 @@
 
 Updated 2026-11-09. Every idea below was tested on 5 years of real daily prices with real costs: the older half (before 2024-06-20) and the newer half separately.
 An idea passes only if it made money in both halves, with at least 40 trades in each and a strong enough signal that luck is unlikely (t 2 and 1.5).
+Because hundreds of ideas are tested each week, a pass must also survive a luck check across all of them (Benjamini-Hochberg, 5%).
 Passing ideas trade as learning-only for 30 live trades, then become counted rules only if they keep making money. The exact conditions stay private.
 
 ## Roki's own rules
@@ -107,8 +108,8 @@ Passing ideas trade as learning-only for 30 live trades, then become counted rul
 | Opposite of: Strong close follow-through | idea bank | Indian stocks | 181, −0.08%, -0.9 | 180, +0.02%, 0.2 | failed |
 | Opposite of: Inside-day breakout up | idea bank | US stocks | 103, +0.06%, 0.5 | 134, +0.03%, 0.2 | failed |
 | Sell India when the rupee weakens sharply | idea bank (macro) | Indian indices | 156, −0.02%, -0.3 | 147, +0.01%, 0.2 | failed |
-| NR7 breakout up | idea bank | Crypto | 389, +0.04%, 0.3 | 423, +0.02%, 0.2 | failed |
 | Weak close follow-through | idea bank | Crypto | 349, −0.02%, -0.1 | 258, +0.05%, 0.2 | failed |
+| NR7 breakout up | idea bank | Crypto | 389, +0.04%, 0.3 | 423, +0.02%, 0.2 | failed |
 | Open above yesterday's high, fade | idea bank | Indian indices | 184, +0.01%, 0.2 | 157, +0.01%, 0.2 | failed |
 | Sell the rally in a downtrend | idea bank | Indian indices | 131, −0.07%, -1.2 | 117, +0.01%, 0.2 | failed |
 | Buy the US when VIX is very high | idea bank (macro) | US indices | 142, +0.16%, 1.4 | 38, +0.07%, 0.2 | failed |
