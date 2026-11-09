@@ -1,0 +1,271 @@
+{
+ "date": "2026-11-08",
+ "checkedAt": "2026-11-09T08:07:21.936Z",
+ "checks": [
+  {
+   "instrument": "INFY",
+   "session": "2026-11-08",
+   "roki": null,
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no daily bar"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no daily bar"
+   },
+   "ok": false
+  },
+  {
+   "instrument": "TCS",
+   "session": "2026-11-08",
+   "roki": null,
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no daily bar"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no daily bar"
+   },
+   "ok": false
+  },
+  {
+   "instrument": "HDFCBANK",
+   "session": "2026-11-08",
+   "roki": null,
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no daily bar"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no daily bar"
+   },
+   "ok": false
+  },
+  {
+   "instrument": "BANK NIFTY",
+   "session": "2026-11-08",
+   "roki": null,
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no daily bar"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no daily bar"
+   },
+   "ok": false
+  },
+  {
+   "instrument": "RELIANCE",
+   "session": "2026-11-08",
+   "roki": null,
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no daily bar"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no daily bar"
+   },
+   "ok": false
+  },
+  {
+   "instrument": "SENSEX",
+   "session": "2026-11-08",
+   "roki": null,
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no daily bar"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no daily bar"
+   },
+   "ok": false
+  },
+  {
+   "instrument": "ICICIBANK",
+   "session": "2026-11-08",
+   "roki": null,
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no daily bar"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no daily bar"
+   },
+   "ok": false
+  },
+  {
+   "instrument": "NIFTY",
+   "session": "2026-11-08",
+   "roki": null,
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no daily bar"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no daily bar"
+   },
+   "ok": false
+  },
+  {
+   "instrument": "BTC",
+   "session": "2026-11-08",
+   "roki": {
+    "open": 75747.578125,
+    "high": 76096.6875,
+    "low": 73691.765625,
+    "close": 74584.6484375
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 75742.7890625,
+     "high": 76094.953125,
+     "low": 73590.9296875,
+     "close": 74724.9296875
+    },
+    "worst": 0.188,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "Coinbase daily candle",
+    "bar": {
+     "open": 75753.95,
+     "high": 76094.99,
+     "low": 73477,
+     "close": 74754.08
+    },
+    "worst": 0.292,
+    "ok": true,
+    "note": "matches"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "ETH",
+   "session": "2026-11-08",
+   "roki": {
+    "open": 2236.315185546875,
+    "high": 2242.639404296875,
+    "low": 2081.498779296875,
+    "close": 2120.980224609375
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 2236.139892578125,
+     "high": 2242.989990234375,
+     "low": 2095.22998046875,
+     "close": 2124.89990234375
+    },
+    "worst": 0.655,
+    "ok": false,
+    "note": "differs by 0.66%"
+   },
+   "independent": {
+    "source": "Coinbase daily candle",
+    "bar": {
+     "open": 2236.53,
+     "high": 2243.2,
+     "low": 2089.01,
+     "close": 2125.32
+    },
+    "worst": 0.36,
+    "ok": true,
+    "note": "matches"
+   },
+   "ok": false
+  },
+  {
+   "instrument": "SOL",
+   "session": "2026-11-08",
+   "roki": {
+    "open": 89.66865539550781,
+    "high": 89.75296783447266,
+    "low": 85.58072662353516,
+    "close": 86.24284362792969
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 89.66000366210938,
+     "high": 89.83999633789062,
+     "low": 85.33000183105469,
+     "close": 86.44999694824219
+    },
+    "worst": 0.294,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "Coinbase daily candle",
+    "bar": {
+     "open": 89.68,
+     "high": 89.88,
+     "low": 84.95,
+     "close": 86.45
+    },
+    "worst": 0.742,
+    "ok": false,
+    "note": "differs by 0.74%"
+   },
+   "ok": false
+  }
+ ]
+}
