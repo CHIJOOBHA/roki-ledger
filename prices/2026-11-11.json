@@ -1,5 +1,661 @@
 {
  "date": "2026-11-11",
- "checkedAt": "2026-11-10T20:27:14.099Z",
- "checks": []
+ "checkedAt": "2026-11-12T08:26:15.667Z",
+ "checks": [
+  {
+   "instrument": "ICICIBANK",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 1616,
+    "high": 1616,
+    "low": 1563.0999755859375,
+    "close": 1571.5999755859375
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 1612.800048828125,
+     "high": 1613.5,
+     "low": 1564,
+     "close": 1571.5999755859375
+    },
+    "worst": 0.155,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no free official source for this market"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "NIFTY",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 25337.80078125,
+    "high": 25424.349609375,
+    "low": 25095.349609375,
+    "close": 25255.05078125
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 25337.80078125,
+     "high": 25424.349609375,
+     "low": 25096.05078125,
+     "close": 25255.05078125
+    },
+    "worst": 0.003,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "NSE official index file",
+    "bar": {
+     "open": 25337.8,
+     "high": 25424.35,
+     "low": 25095.35,
+     "close": 25255.05
+    },
+    "worst": 0,
+    "ok": true,
+    "note": "matches"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "SENSEX",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 82248.6796875,
+    "high": 82520.3984375,
+    "low": 81417.390625,
+    "close": 81879.3984375
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 82122.1796875,
+     "high": 82520.0703125,
+     "low": 81379.890625,
+     "close": 81879.3984375
+    },
+    "worst": 0.046,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no free official source for this market"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "BANK NIFTY",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 60524.69921875,
+    "high": 61394.30078125,
+    "low": 60376.1015625,
+    "close": 60792.3984375
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 60471.05078125,
+     "high": 61394.05078125,
+     "low": 60388.25,
+     "close": 60792.3984375
+    },
+    "worst": 0.02,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "NSE official index file",
+    "bar": {
+     "open": 60524.7,
+     "high": 61394.3,
+     "low": 60376.1,
+     "close": 60792.4
+    },
+    "worst": 0,
+    "ok": true,
+    "note": "matches"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "HDFCBANK",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 810.0999755859375,
+    "high": 817.8499755859375,
+    "low": 800.5499877929688,
+    "close": 806.5999755859375
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 810.0999755859375,
+     "high": 817.8499755859375,
+     "low": 800.5499877929688,
+     "close": 806.5999755859375
+    },
+    "worst": 0,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no free official source for this market"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "TCS",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 2500,
+    "high": 2506,
+    "low": 2442,
+    "close": 2472.10009765625
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 2499,
+     "high": 2505.800048828125,
+     "low": 2442.199951171875,
+     "close": 2472.10009765625
+    },
+    "worst": 0.008,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no free official source for this market"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "INFY",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 1160,
+    "high": 1170.5999755859375,
+    "low": 1143.9000244140625,
+    "close": 1155
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 1158.699951171875,
+     "high": 1169.699951171875,
+     "low": 1144,
+     "close": 1155
+    },
+    "worst": 0.077,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no free official source for this market"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "AAPL",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 349.54998779296875,
+    "high": 355.9100036621094,
+    "low": 349.3299865722656,
+    "close": 355.6300048828125
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 349.5849914550781,
+     "high": 355.8999938964844,
+     "low": 349.32501220703125,
+     "close": 355.7900085449219
+    },
+    "worst": 0.045,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no free official source for this market"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "GOLD",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 4043.699951171875,
+    "high": 4074.699951171875,
+    "low": 3989.60009765625,
+    "close": 3994.300048828125
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 4043.699951171875,
+     "high": 4074.699951171875,
+     "low": 3989.60009765625,
+     "close": 3994.300048828125
+    },
+    "worst": null,
+    "ok": null,
+    "note": "the daily bar is built from these bars"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no free official source for this market"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "JPM",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 342.8900146484375,
+    "high": 345,
+    "low": 340.82000732421875,
+    "close": 343.3900146484375
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 342.8900146484375,
+     "high": 345,
+     "low": 340.82000732421875,
+     "close": 343.4200134277344
+    },
+    "worst": 0.009,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no free official source for this market"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "NVDA",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 172.8000030517578,
+    "high": 177.5399932861328,
+    "low": 170.77000427246094,
+    "close": 173.72999572753906
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 172.72000122070312,
+     "high": 177.5399932861328,
+     "low": 170.77000427246094,
+     "close": 173.85000610351562
+    },
+    "worst": 0.069,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no free official source for this market"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "DOW",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 52196.3515625,
+    "high": 52512.71875,
+    "low": 52055.140625,
+    "close": 52486.48828125
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 52196.3515625,
+     "high": 52512.71875,
+     "low": 52055.140625,
+     "close": 52476.921875
+    },
+    "worst": 0.018,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no free official source for this market"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "AMZN",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 273.5199890136719,
+    "high": 274.8699951171875,
+    "low": 265.6199951171875,
+    "close": 266.1700134277344
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 273.2650146484375,
+     "high": 274.8699951171875,
+     "low": 265.6199951171875,
+     "close": 266.2200012207031
+    },
+    "worst": 0.019,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no free official source for this market"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "S&P 500",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 7586.64990234375,
+    "high": 7647.2001953125,
+    "low": 7571.8798828125,
+    "close": 7619.3798828125
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 7586.64990234375,
+     "high": 7647.2001953125,
+     "low": 7571.8798828125,
+     "close": 7617.83984375
+    },
+    "worst": 0.02,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no free official source for this market"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "MSFT",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 534.239990234375,
+    "high": 534.760009765625,
+    "low": 518.4500122070312,
+    "close": 521.1300048828125
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 534.219970703125,
+     "high": 534.760009765625,
+     "low": 518.4500122070312,
+     "close": 521.2100219726562
+    },
+    "worst": 0.015,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no free official source for this market"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "SILVER",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 47.400001525878906,
+    "high": 47.40999984741211,
+    "low": 46.650001525878906,
+    "close": 46.650001525878906
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 47.400001525878906,
+     "high": 47.40999984741211,
+     "low": 46.65999984741211,
+     "close": 46.66999816894531
+    },
+    "worst": 0.043,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no free official source for this market"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "US OIL",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 86.37999725341797,
+    "high": 88.73999786376953,
+    "low": 85.80999755859375,
+    "close": 86.41999816894531
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 86.37999725341797,
+     "high": 88.73999786376953,
+     "low": 85.80999755859375,
+     "close": 86.41999816894531
+    },
+    "worst": null,
+    "ok": null,
+    "note": "the daily bar is built from these bars"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no free official source for this market"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "RELIANCE",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 1333.5,
+    "high": 1349.4000244140625,
+    "low": 1327,
+    "close": 1335.4000244140625
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 1333.5,
+     "high": 1349.0999755859375,
+     "low": 1328,
+     "close": 1335.4000244140625
+    },
+    "worst": 0.075,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no free official source for this market"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "BTC",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 73720.1171875,
+    "high": 74703.453125,
+    "low": 73141.53125,
+    "close": 73964.46875
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 73708.859375,
+     "high": 74724.1171875,
+     "low": 73119.953125,
+     "close": 73927.6328125
+    },
+    "worst": 0.05,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "Coinbase daily candle",
+    "bar": {
+     "open": 73697.88,
+     "high": 74737.15,
+     "low": 73110,
+     "close": 73927.63
+    },
+    "worst": 0.05,
+    "ok": true,
+    "note": "matches"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "ETH",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 2050.180908203125,
+    "high": 2100.610595703125,
+    "low": 2034.730712890625,
+    "close": 2055.876220703125
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 2049.739990234375,
+     "high": 2100.31005859375,
+     "low": 2034.22998046875,
+     "close": 2053.840087890625
+    },
+    "worst": 0.099,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "Coinbase daily candle",
+    "bar": {
+     "open": 2050.58,
+     "high": 2101.88,
+     "low": 2033.16,
+     "close": 2053.73
+    },
+    "worst": 0.105,
+    "ok": true,
+    "note": "matches"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "SOL",
+   "session": "2026-11-11",
+   "roki": {
+    "open": 83.26026916503906,
+    "high": 85.60169982910156,
+    "low": 82.2771987915039,
+    "close": 83.32109069824219
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 83.23999786376953,
+     "high": 85.72000122070312,
+     "low": 82.13999938964844,
+     "close": 83.18000030517578
+    },
+    "worst": 0.17,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "Coinbase daily candle",
+    "bar": {
+     "open": 83.24,
+     "high": 85.8,
+     "low": 82.1,
+     "close": 83.18
+    },
+    "worst": 0.231,
+    "ok": true,
+    "note": "matches"
+   },
+   "ok": true
+  }
+ ]
 }
