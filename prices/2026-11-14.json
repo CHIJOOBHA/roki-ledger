@@ -1,5 +1,111 @@
 {
  "date": "2026-11-14",
- "checkedAt": "2026-11-13T20:28:10.301Z",
- "checks": []
+ "checkedAt": "2026-11-15T07:56:04.278Z",
+ "checks": [
+  {
+   "instrument": "BTC",
+   "session": "2026-11-14",
+   "roki": {
+    "open": 68249.2734375,
+    "high": 68377.5390625,
+    "low": 63329.4296875,
+    "close": 64128.05078125
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 68243.171875,
+     "high": 68374.65625,
+     "low": 63297.80859375,
+     "close": 64109.9609375
+    },
+    "worst": 0.05,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "Coinbase daily candle",
+    "bar": {
+     "open": 68236.54,
+     "high": 68380,
+     "low": 63270,
+     "close": 64118.79
+    },
+    "worst": 0.094,
+    "ok": true,
+    "note": "matches"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "ETH",
+   "session": "2026-11-14",
+   "roki": {
+    "open": 1927.5888671875,
+    "high": 1933.9482421875,
+    "low": 1730.70458984375,
+    "close": 1769.1204833984375
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 1927.5699462890625,
+     "high": 1934.469970703125,
+     "low": 1730.4100341796875,
+     "close": 1768.4100341796875
+    },
+    "worst": 0.04,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "Coinbase daily candle",
+    "bar": {
+     "open": 1928.08,
+     "high": 1934.68,
+     "low": 1727.73,
+     "close": 1768.41
+    },
+    "worst": 0.172,
+    "ok": true,
+    "note": "matches"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "SOL",
+   "session": "2026-11-14",
+   "roki": {
+    "open": 78.09608459472656,
+    "high": 78.39168548583984,
+    "low": 68.83589172363281,
+    "close": 70.1768569946289
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 78.13999938964844,
+     "high": 78.41999816894531,
+     "low": 68.58999633789062,
+     "close": 70.23999786376953
+    },
+    "worst": 0.359,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "Coinbase daily candle",
+    "bar": {
+     "open": 78.12,
+     "high": 78.42,
+     "low": 68.54,
+     "close": 70.25
+    },
+    "worst": 0.432,
+    "ok": true,
+    "note": "matches"
+   },
+   "ok": true
+  }
+ ]
 }
