@@ -1,6 +1,6 @@
 # Roki vs its frozen twin
 
-Updated 2026-11-15. The twin is Roki's brain exactly as first approved (`e63a54e348dd979a`, 2026-10-22); it never learns.
+Updated 2026-11-22. The twin is Roki's brain exactly as first approved (`e63a54e348dd979a`, 2026-10-22); it never learns.
 Roki today runs brain `d63856a4b1f8032d` (approved 2026-11-08). Both rebuild the paper record since 2026-10-22 from the same real prices.
 If Roki's changes are real learning, Roki should do better than the twin over time. Small samples are mostly luck. Not investment advice.
 
@@ -8,9 +8,7 @@ If Roki's changes are real learning, Roki should do better than the twin over ti
 
 | Rule | Market | Roki trades | Roki won | Roki result | Twin trades | Twin won | Twin result | Difference |
 |---|---|---|---|---|---|---|---|---|
-| Big-gap fade | US stock | 1 | 1 | +$28 | 1 | 1 | +$111.99 | −$83.99 |
-| Breakout | crypto | 0 | 0 | - | 11 | 10 | +$440.1 | −$440.1 |
-| Gap fade | US stock | 1 | 1 | +$28 | 1 | 1 | +$111.99 | −$83.99 |
-| Extreme-close fade | IN index | 1 | 0 | −₹1,048 | 1 | 0 | −₹1,455 | +₹407 |
+| Breakout | crypto | 0 | 0 | - | 10 | 5 | +$4.96 | −$4.96 |
+| Gap fade | US stock | 2 | 2 | +$12.92 | 2 | 2 | +$30.88 | −$17.96 |
 
 Each market stays in its own currency; rupees and dollars are never added together.
