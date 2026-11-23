@@ -1,0 +1,176 @@
+{
+ "date": "2026-11-22",
+ "checkedAt": "2026-11-23T09:13:25.771Z",
+ "checks": [
+  {
+   "instrument": "BTC",
+   "session": "2026-11-22",
+   "roki": {
+    "open": 60094.08984375,
+    "high": 61561.59375,
+    "low": 58660.47265625,
+    "close": 61161.91015625
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 60086,
+     "high": 61545.78125,
+     "low": 58656.26171875,
+     "close": 61160.69921875
+    },
+    "worst": 0.026,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "Coinbase daily candle",
+    "bar": {
+     "open": 60086,
+     "high": 61568.11,
+     "low": 58636.18,
+     "close": 61163.01
+    },
+    "worst": 0.041,
+    "ok": true,
+    "note": "matches"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "ETH",
+   "session": "2026-11-22",
+   "roki": {
+    "open": 1682.20458984375,
+    "high": 1728.552978515625,
+    "low": 1645.3004150390625,
+    "close": 1721.07568359375
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 1682.3299560546875,
+     "high": 1728.6700439453125,
+     "low": 1644.93994140625,
+     "close": 1721.280029296875
+    },
+    "worst": 0.022,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "Coinbase daily candle",
+    "bar": {
+     "open": 1682.33,
+     "high": 1729.68,
+     "low": 1644.62,
+     "close": 1721.29
+    },
+    "worst": 0.065,
+    "ok": true,
+    "note": "matches"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "SOL",
+   "session": "2026-11-22",
+   "roki": {
+    "open": 70.21524810791016,
+    "high": 71.10871887207031,
+    "low": 68.6924819946289,
+    "close": 70.57005310058594
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 70.1500015258789,
+     "high": 71.23999786376953,
+     "low": 68.58999633789062,
+     "close": 70.61000061035156
+    },
+    "worst": 0.184,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "Coinbase daily candle",
+    "bar": {
+     "open": 70.16,
+     "high": 71.3,
+     "low": 68.59,
+     "close": 70.61
+    },
+    "worst": 0.268,
+    "ok": true,
+    "note": "matches"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "BNB",
+   "session": "2026-11-22",
+   "roki": {
+    "open": 547.5115966796875,
+    "high": 559.4946899414062,
+    "low": 536.2281494140625,
+    "close": 558.54150390625
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 547.239990234375,
+     "high": 559.8699951171875,
+     "low": 535.719970703125,
+     "close": 558.4099731445312
+    },
+    "worst": 0.095,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "-",
+    "bar": null,
+    "worst": null,
+    "ok": null,
+    "note": "no free official source for this market"
+   },
+   "ok": true
+  },
+  {
+   "instrument": "XRP",
+   "session": "2026-11-22",
+   "roki": {
+    "open": 0.931361973285675,
+    "high": 0.9344589710235596,
+    "low": 0.9112769961357117,
+    "close": 0.9273809790611267
+   },
+   "fiveMin": {
+    "source": "Yahoo 5-minute bars",
+    "bar": {
+     "open": 0.9300000071525574,
+     "high": 0.9370999932289124,
+     "low": 0.9099000096321106,
+     "close": 0.9273999929428101
+    },
+    "worst": 0.282,
+    "ok": true,
+    "note": "matches"
+   },
+   "independent": {
+    "source": "Coinbase daily candle",
+    "bar": {
+     "open": 0.93,
+     "high": 0.9374,
+     "low": 0.9099,
+     "close": 0.9274
+    },
+    "worst": 0.314,
+    "ok": true,
+    "note": "matches"
+   },
+   "ok": true
+  }
+ ]
+}
