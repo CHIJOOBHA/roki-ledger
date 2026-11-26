@@ -1,0 +1,27 @@
+{
+ "session": "2026-11-27",
+ "group": "gold",
+ "lockedAtIST": "26 Nov 2026, 9:06 am IST",
+ "lockedAt": "2026-11-26T03:36:57.845Z",
+ "brain": "d63856a4b1f8032d",
+ "predictions": [
+  {
+   "instrument": "GOLD",
+   "question": "N_H",
+   "call": "High breaks (75%)",
+   "chance": 0.75,
+   "madeAt": "2026-11-26T03:36:58.100Z",
+   "sessionStartsIST": "27 Nov 2026, 4:30 am IST",
+   "lockedBeforeStartMin": 1163
+  },
+  {
+   "instrument": "GOLD",
+   "question": "N_L",
+   "call": "Low holds (79%)",
+   "chance": 0.21428571428571427,
+   "madeAt": "2026-11-26T03:36:58.100Z",
+   "sessionStartsIST": "27 Nov 2026, 4:30 am IST",
+   "lockedBeforeStartMin": 1163
+  }
+ ]
+}

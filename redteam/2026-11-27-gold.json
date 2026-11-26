@@ -1,0 +1,80 @@
+{
+ "session": "2026-11-27",
+ "group": "gold",
+ "lockedAtIST": "26 Nov 2026, 9:06 am IST",
+ "lockedAt": "2026-11-26T03:36:57.845Z",
+ "brain": "d63856a4b1f8032d",
+ "how": "For each plan, the openings that made the same plan fail in 5 years of this market's own history. Scored after the session.",
+ "plans": [
+  {
+   "plan": "N_H",
+   "instrument": "GOLD",
+   "session": "2026-11-27",
+   "call": "High breaks (75%)"
+  },
+  {
+   "plan": "N_L",
+   "instrument": "GOLD",
+   "session": "2026-11-27",
+   "call": "Low holds (79%)"
+  }
+ ],
+ "doubts": [
+  {
+   "plan": "N_H",
+   "instrument": "GOLD",
+   "session": "2026-11-27",
+   "call": "High breaks (75%)",
+   "band": 0,
+   "openFrom": null,
+   "openTo": 3561.8300537109376,
+   "when": "opens below 3,561.83 (more than half a normal day below yesterday's close)",
+   "right": 0.125,
+   "overall": 0.516,
+   "n": 24,
+   "text": "If GOLD opens below 3,561.83 (more than half a normal day below yesterday's close), the call \"High breaks (75%)\" was right only 13% of the time on such openings (24 days in 5 years)."
+  },
+  {
+   "plan": "N_H",
+   "instrument": "GOLD",
+   "session": "2026-11-27",
+   "call": "High breaks (75%)",
+   "band": 1,
+   "openFrom": 3561.8300537109376,
+   "openTo": 3601.009050292969,
+   "when": "opens between 3,561.83 and 3,601.01 (a little below yesterday's close)",
+   "right": 0.185,
+   "overall": 0.516,
+   "n": 146,
+   "text": "If GOLD opens between 3,561.83 and 3,601.01 (a little below yesterday's close), the call \"High breaks (75%)\" was right only 18% of the time on such openings (146 days in 5 years)."
+  },
+  {
+   "plan": "N_L",
+   "instrument": "GOLD",
+   "session": "2026-11-27",
+   "call": "Low holds (79%)",
+   "band": 0,
+   "openFrom": null,
+   "openTo": 3561.8300537109376,
+   "when": "opens below 3,561.83 (more than half a normal day below yesterday's close)",
+   "right": 0.125,
+   "overall": 0.544,
+   "n": 24,
+   "text": "If GOLD opens below 3,561.83 (more than half a normal day below yesterday's close), the call \"Low holds (79%)\" was right only 13% of the time on such openings (24 days in 5 years)."
+  },
+  {
+   "plan": "N_L",
+   "instrument": "GOLD",
+   "session": "2026-11-27",
+   "call": "Low holds (79%)",
+   "band": 1,
+   "openFrom": 3561.8300537109376,
+   "openTo": 3601.009050292969,
+   "when": "opens between 3,561.83 and 3,601.01 (a little below yesterday's close)",
+   "right": 0.281,
+   "overall": 0.544,
+   "n": 146,
+   "text": "If GOLD opens between 3,561.83 and 3,601.01 (a little below yesterday's close), the call \"Low holds (79%)\" was right only 28% of the time on such openings (146 days in 5 years)."
+  }
+ ]
+}
