@@ -1,0 +1,382 @@
+{
+ "session": "2026-11-27",
+ "group": "india",
+ "lockedAtIST": "26 Nov 2026, 3:30 pm IST",
+ "lockedAt": "2026-11-26T10:00:38.956Z",
+ "brain": "d63856a4b1f8032d",
+ "how": "For each plan, the openings that made the same plan fail in 5 years of this market's own history. Scored after the session.",
+ "plans": [
+  {
+   "plan": "N_H",
+   "instrument": "NIFTY",
+   "session": "2026-11-27",
+   "call": "High breaks (68%)"
+  },
+  {
+   "plan": "N_L",
+   "instrument": "NIFTY",
+   "session": "2026-11-27",
+   "call": "Low holds (62%)"
+  },
+  {
+   "plan": "N_H",
+   "instrument": "SENSEX",
+   "session": "2026-11-27",
+   "call": "High breaks (73%)"
+  },
+  {
+   "plan": "N_L",
+   "instrument": "SENSEX",
+   "session": "2026-11-27",
+   "call": "Low holds (73%)"
+  },
+  {
+   "plan": "N_L",
+   "instrument": "BANK NIFTY",
+   "session": "2026-11-27",
+   "call": "Low breaks (64%)"
+  },
+  {
+   "plan": "N_H",
+   "instrument": "RELIANCE",
+   "session": "2026-11-27",
+   "call": "High breaks (78%)"
+  },
+  {
+   "plan": "N_L",
+   "instrument": "RELIANCE",
+   "session": "2026-11-27",
+   "call": "Low holds (68%)"
+  },
+  {
+   "plan": "N_H",
+   "instrument": "HDFCBANK",
+   "session": "2026-11-27",
+   "call": "High breaks (62%)"
+  },
+  {
+   "plan": "N_L",
+   "instrument": "HDFCBANK",
+   "session": "2026-11-27",
+   "call": "Low holds (72%)"
+  },
+  {
+   "plan": "N_H",
+   "instrument": "ICICIBANK",
+   "session": "2026-11-27",
+   "call": "High holds (76%)"
+  },
+  {
+   "plan": "N_L",
+   "instrument": "ICICIBANK",
+   "session": "2026-11-27",
+   "call": "Low breaks (80%)"
+  },
+  {
+   "plan": "N_H",
+   "instrument": "INFY",
+   "session": "2026-11-27",
+   "call": "High breaks (63%)"
+  },
+  {
+   "plan": "N_L",
+   "instrument": "INFY",
+   "session": "2026-11-27",
+   "call": "Low holds (86%)"
+  },
+  {
+   "plan": "N_H",
+   "instrument": "TCS",
+   "session": "2026-11-27",
+   "call": "High breaks (69%)"
+  },
+  {
+   "plan": "N_L",
+   "instrument": "TCS",
+   "session": "2026-11-27",
+   "call": "Low holds (79%)"
+  }
+ ],
+ "doubts": [
+  {
+   "plan": "N_H",
+   "instrument": "NIFTY",
+   "session": "2026-11-27",
+   "call": "High breaks (68%)",
+   "band": 0,
+   "openFrom": null,
+   "openTo": 25725.5849609375,
+   "when": "opens below 25,725.58 (more than half a normal day below yesterday's close)",
+   "right": 0.06,
+   "overall": 0.533,
+   "n": 133,
+   "text": "If NIFTY opens below 25,725.58 (more than half a normal day below yesterday's close), the call \"High breaks (68%)\" was right only 6% of the time on such openings (133 days in 5 years)."
+  },
+  {
+   "plan": "N_H",
+   "instrument": "NIFTY",
+   "session": "2026-11-27",
+   "call": "High breaks (68%)",
+   "band": 1,
+   "openFrom": 25725.5849609375,
+   "openTo": 25836.82548828125,
+   "when": "opens between 25,725.58 and 25,836.83 (a little below yesterday's close)",
+   "right": 0.224,
+   "overall": 0.533,
+   "n": 192,
+   "text": "If NIFTY opens between 25,725.58 and 25,836.83 (a little below yesterday's close), the call \"High breaks (68%)\" was right only 22% of the time on such openings (192 days in 5 years)."
+  },
+  {
+   "plan": "N_L",
+   "instrument": "NIFTY",
+   "session": "2026-11-27",
+   "call": "Low holds (62%)",
+   "band": 0,
+   "openFrom": null,
+   "openTo": 25725.5849609375,
+   "when": "opens below 25,725.58 (more than half a normal day below yesterday's close)",
+   "right": 0.083,
+   "overall": 0.529,
+   "n": 133,
+   "text": "If NIFTY opens below 25,725.58 (more than half a normal day below yesterday's close), the call \"Low holds (62%)\" was right only 8% of the time on such openings (133 days in 5 years)."
+  },
+  {
+   "plan": "N_L",
+   "instrument": "NIFTY",
+   "session": "2026-11-27",
+   "call": "Low holds (62%)",
+   "band": 1,
+   "openFrom": 25725.5849609375,
+   "openTo": 25836.82548828125,
+   "when": "opens between 25,725.58 and 25,836.83 (a little below yesterday's close)",
+   "right": 0.214,
+   "overall": 0.529,
+   "n": 192,
+   "text": "If NIFTY opens between 25,725.58 and 25,836.83 (a little below yesterday's close), the call \"Low holds (62%)\" was right only 21% of the time on such openings (192 days in 5 years)."
+  },
+  {
+   "plan": "N_H",
+   "instrument": "SENSEX",
+   "session": "2026-11-27",
+   "call": "High breaks (73%)",
+   "band": 1,
+   "openFrom": 83759.130078125,
+   "openTo": 84132.0405859375,
+   "when": "opens between 83,759.13 and 84,132.04 (a little below yesterday's close)",
+   "right": 0.276,
+   "overall": 0.689,
+   "n": 29,
+   "text": "If SENSEX opens between 83,759.13 and 84,132.04 (a little below yesterday's close), the call \"High breaks (73%)\" was right only 28% of the time on such openings (29 days in 5 years)."
+  },
+  {
+   "plan": "N_L",
+   "instrument": "SENSEX",
+   "session": "2026-11-27",
+   "call": "Low holds (73%)",
+   "band": 1,
+   "openFrom": 83759.130078125,
+   "openTo": 84132.0405859375,
+   "when": "opens between 83,759.13 and 84,132.04 (a little below yesterday's close)",
+   "right": 0.31,
+   "overall": 0.642,
+   "n": 29,
+   "text": "If SENSEX opens between 83,759.13 and 84,132.04 (a little below yesterday's close), the call \"Low holds (73%)\" was right only 31% of the time on such openings (29 days in 5 years)."
+  },
+  {
+   "plan": "N_L",
+   "instrument": "BANK NIFTY",
+   "session": "2026-11-27",
+   "call": "Low breaks (64%)",
+   "band": 3,
+   "openFrom": 63698.71904296875,
+   "openTo": 64080.0283203125,
+   "when": "opens between 63,698.72 and 64,080.03 (a little above yesterday's close)",
+   "right": 0.319,
+   "overall": 0.643,
+   "n": 47,
+   "text": "If BANK NIFTY opens between 63,698.72 and 64,080.03 (a little above yesterday's close), the call \"Low breaks (64%)\" was right only 32% of the time on such openings (47 days in 5 years)."
+  },
+  {
+   "plan": "N_H",
+   "instrument": "RELIANCE",
+   "session": "2026-11-27",
+   "call": "High breaks (78%)",
+   "band": 1,
+   "openFrom": 1381.5399597167968,
+   "openTo": 1391.8019537353516,
+   "when": "opens between 1,381.54 and 1,391.8 (a little below yesterday's close)",
+   "right": 0.537,
+   "overall": 0.775,
+   "n": 41,
+   "text": "If RELIANCE opens between 1,381.54 and 1,391.8 (a little below yesterday's close), the call \"High breaks (78%)\" was right only 54% of the time on such openings (41 days in 5 years)."
+  },
+  {
+   "plan": "N_H",
+   "instrument": "HDFCBANK",
+   "session": "2026-11-27",
+   "call": "High breaks (62%)",
+   "band": 0,
+   "openFrom": null,
+   "openTo": 851.5225036621093,
+   "when": "opens below 851.52 (more than half a normal day below yesterday's close)",
+   "right": 0.067,
+   "overall": 0.667,
+   "n": 15,
+   "text": "If HDFCBANK opens below 851.52 (more than half a normal day below yesterday's close), the call \"High breaks (62%)\" was right only 7% of the time on such openings (15 days in 5 years)."
+  },
+  {
+   "plan": "N_H",
+   "instrument": "HDFCBANK",
+   "session": "2026-11-27",
+   "call": "High breaks (62%)",
+   "band": 1,
+   "openFrom": 851.5225036621093,
+   "openTo": 858.8567510986328,
+   "when": "opens between 851.52 and 858.86 (a little below yesterday's close)",
+   "right": 0.391,
+   "overall": 0.667,
+   "n": 46,
+   "text": "If HDFCBANK opens between 851.52 and 858.86 (a little below yesterday's close), the call \"High breaks (62%)\" was right only 39% of the time on such openings (46 days in 5 years)."
+  },
+  {
+   "plan": "N_L",
+   "instrument": "HDFCBANK",
+   "session": "2026-11-27",
+   "call": "Low holds (72%)",
+   "band": 0,
+   "openFrom": null,
+   "openTo": 851.5225036621093,
+   "when": "opens below 851.52 (more than half a normal day below yesterday's close)",
+   "right": 0.133,
+   "overall": 0.709,
+   "n": 15,
+   "text": "If HDFCBANK opens below 851.52 (more than half a normal day below yesterday's close), the call \"Low holds (72%)\" was right only 13% of the time on such openings (15 days in 5 years)."
+  },
+  {
+   "plan": "N_L",
+   "instrument": "ICICIBANK",
+   "session": "2026-11-27",
+   "call": "Low breaks (80%)",
+   "band": 3,
+   "openFrom": 1615.8179992675782,
+   "openTo": 1627.0599975585938,
+   "when": "opens between 1,615.82 and 1,627.06 (a little above yesterday's close)",
+   "right": 0.481,
+   "overall": 0.773,
+   "n": 54,
+   "text": "If ICICIBANK opens between 1,615.82 and 1,627.06 (a little above yesterday's close), the call \"Low breaks (80%)\" was right only 48% of the time on such openings (54 days in 5 years)."
+  },
+  {
+   "plan": "N_H",
+   "instrument": "INFY",
+   "session": "2026-11-27",
+   "call": "High breaks (63%)",
+   "band": 0,
+   "openFrom": null,
+   "openTo": 1169.889990234375,
+   "when": "opens below 1,169.89 (more than half a normal day below yesterday's close)",
+   "right": 0.073,
+   "overall": 0.49,
+   "n": 123,
+   "text": "If INFY opens below 1,169.89 (more than half a normal day below yesterday's close), the call \"High breaks (63%)\" was right only 7% of the time on such openings (123 days in 5 years)."
+  },
+  {
+   "plan": "N_H",
+   "instrument": "INFY",
+   "session": "2026-11-27",
+   "call": "High breaks (63%)",
+   "band": 1,
+   "openFrom": 1169.889990234375,
+   "openTo": 1179.0669970703125,
+   "when": "opens between 1,169.89 and 1,179.07 (a little below yesterday's close)",
+   "right": 0.206,
+   "overall": 0.49,
+   "n": 267,
+   "text": "If INFY opens between 1,169.89 and 1,179.07 (a little below yesterday's close), the call \"High breaks (63%)\" was right only 21% of the time on such openings (267 days in 5 years)."
+  },
+  {
+   "plan": "N_L",
+   "instrument": "INFY",
+   "session": "2026-11-27",
+   "call": "Low holds (86%)",
+   "band": 0,
+   "openFrom": null,
+   "openTo": 1169.889990234375,
+   "when": "opens below 1,169.89 (more than half a normal day below yesterday's close)",
+   "right": 0.081,
+   "overall": 0.513,
+   "n": 123,
+   "text": "If INFY opens below 1,169.89 (more than half a normal day below yesterday's close), the call \"Low holds (86%)\" was right only 8% of the time on such openings (123 days in 5 years)."
+  },
+  {
+   "plan": "N_L",
+   "instrument": "INFY",
+   "session": "2026-11-27",
+   "call": "Low holds (86%)",
+   "band": 1,
+   "openFrom": 1169.889990234375,
+   "openTo": 1179.0669970703125,
+   "when": "opens between 1,169.89 and 1,179.07 (a little below yesterday's close)",
+   "right": 0.247,
+   "overall": 0.513,
+   "n": 267,
+   "text": "If INFY opens between 1,169.89 and 1,179.07 (a little below yesterday's close), the call \"Low holds (86%)\" was right only 25% of the time on such openings (267 days in 5 years)."
+  },
+  {
+   "plan": "N_H",
+   "instrument": "TCS",
+   "session": "2026-11-27",
+   "call": "High breaks (69%)",
+   "band": 0,
+   "openFrom": null,
+   "openTo": 2606.580041503906,
+   "when": "opens below 2,606.58 (more than half a normal day below yesterday's close)",
+   "right": 0.134,
+   "overall": 0.483,
+   "n": 82,
+   "text": "If TCS opens below 2,606.58 (more than half a normal day below yesterday's close), the call \"High breaks (69%)\" was right only 13% of the time on such openings (82 days in 5 years)."
+  },
+  {
+   "plan": "N_H",
+   "instrument": "TCS",
+   "session": "2026-11-27",
+   "call": "High breaks (69%)",
+   "band": 1,
+   "openFrom": 2606.580041503906,
+   "openTo": 2630.1840466308595,
+   "when": "opens between 2,606.58 and 2,630.18 (a little below yesterday's close)",
+   "right": 0.261,
+   "overall": 0.483,
+   "n": 261,
+   "text": "If TCS opens between 2,606.58 and 2,630.18 (a little below yesterday's close), the call \"High breaks (69%)\" was right only 26% of the time on such openings (261 days in 5 years)."
+  },
+  {
+   "plan": "N_L",
+   "instrument": "TCS",
+   "session": "2026-11-27",
+   "call": "Low holds (79%)",
+   "band": 0,
+   "openFrom": null,
+   "openTo": 2606.580041503906,
+   "when": "opens below 2,606.58 (more than half a normal day below yesterday's close)",
+   "right": 0.11,
+   "overall": 0.493,
+   "n": 82,
+   "text": "If TCS opens below 2,606.58 (more than half a normal day below yesterday's close), the call \"Low holds (79%)\" was right only 11% of the time on such openings (82 days in 5 years)."
+  },
+  {
+   "plan": "N_L",
+   "instrument": "TCS",
+   "session": "2026-11-27",
+   "call": "Low holds (79%)",
+   "band": 1,
+   "openFrom": 2606.580041503906,
+   "openTo": 2630.1840466308595,
+   "when": "opens between 2,606.58 and 2,630.18 (a little below yesterday's close)",
+   "right": 0.226,
+   "overall": 0.493,
+   "n": 261,
+   "text": "If TCS opens between 2,606.58 and 2,630.18 (a little below yesterday's close), the call \"Low holds (79%)\" was right only 23% of the time on such openings (261 days in 5 years)."
+  }
+ ]
+}

@@ -1,0 +1,144 @@
+{
+ "session": "2026-11-27",
+ "group": "india",
+ "lockedAtIST": "26 Nov 2026, 3:30 pm IST",
+ "lockedAt": "2026-11-26T10:00:38.956Z",
+ "brain": "d63856a4b1f8032d",
+ "predictions": [
+  {
+   "instrument": "BANK NIFTY",
+   "question": "N_L",
+   "call": "Low breaks (64%)",
+   "chance": 0.6440677966101694,
+   "madeAt": "2026-11-26T10:00:39.016Z",
+   "sessionStartsIST": "27 Nov 2026, 9:15 am IST",
+   "lockedBeforeStartMin": 1064
+  },
+  {
+   "instrument": "HDFCBANK",
+   "question": "N_H",
+   "call": "High breaks (62%)",
+   "chance": 0.6206896551724138,
+   "madeAt": "2026-11-26T10:00:39.016Z",
+   "sessionStartsIST": "27 Nov 2026, 9:15 am IST",
+   "lockedBeforeStartMin": 1064
+  },
+  {
+   "instrument": "HDFCBANK",
+   "question": "N_L",
+   "call": "Low holds (72%)",
+   "chance": 0.27586206896551724,
+   "madeAt": "2026-11-26T10:00:39.016Z",
+   "sessionStartsIST": "27 Nov 2026, 9:15 am IST",
+   "lockedBeforeStartMin": 1064
+  },
+  {
+   "instrument": "ICICIBANK",
+   "question": "N_H",
+   "call": "High holds (76%)",
+   "chance": 0.23684210526315788,
+   "madeAt": "2026-11-26T10:00:39.016Z",
+   "sessionStartsIST": "27 Nov 2026, 9:15 am IST",
+   "lockedBeforeStartMin": 1064
+  },
+  {
+   "instrument": "ICICIBANK",
+   "question": "N_L",
+   "call": "Low breaks (80%)",
+   "chance": 0.8026315789473685,
+   "madeAt": "2026-11-26T10:00:39.016Z",
+   "sessionStartsIST": "27 Nov 2026, 9:15 am IST",
+   "lockedBeforeStartMin": 1064
+  },
+  {
+   "instrument": "INFY",
+   "question": "N_H",
+   "call": "High breaks (63%)",
+   "chance": 0.6285714285714286,
+   "madeAt": "2026-11-26T10:00:39.016Z",
+   "sessionStartsIST": "27 Nov 2026, 9:15 am IST",
+   "lockedBeforeStartMin": 1064
+  },
+  {
+   "instrument": "INFY",
+   "question": "N_L",
+   "call": "Low holds (86%)",
+   "chance": 0.14285714285714285,
+   "madeAt": "2026-11-26T10:00:39.016Z",
+   "sessionStartsIST": "27 Nov 2026, 9:15 am IST",
+   "lockedBeforeStartMin": 1064
+  },
+  {
+   "instrument": "NIFTY",
+   "question": "N_H",
+   "call": "High breaks (68%)",
+   "chance": 0.6808510638297872,
+   "madeAt": "2026-11-26T10:00:39.016Z",
+   "sessionStartsIST": "27 Nov 2026, 9:15 am IST",
+   "lockedBeforeStartMin": 1064
+  },
+  {
+   "instrument": "NIFTY",
+   "question": "N_L",
+   "call": "Low holds (62%)",
+   "chance": 0.3829787234042553,
+   "madeAt": "2026-11-26T10:00:39.016Z",
+   "sessionStartsIST": "27 Nov 2026, 9:15 am IST",
+   "lockedBeforeStartMin": 1064
+  },
+  {
+   "instrument": "RELIANCE",
+   "question": "N_H",
+   "call": "High breaks (78%)",
+   "chance": 0.7796610169491526,
+   "madeAt": "2026-11-26T10:00:39.016Z",
+   "sessionStartsIST": "27 Nov 2026, 9:15 am IST",
+   "lockedBeforeStartMin": 1064
+  },
+  {
+   "instrument": "RELIANCE",
+   "question": "N_L",
+   "call": "Low holds (68%)",
+   "chance": 0.3220338983050847,
+   "madeAt": "2026-11-26T10:00:39.016Z",
+   "sessionStartsIST": "27 Nov 2026, 9:15 am IST",
+   "lockedBeforeStartMin": 1064
+  },
+  {
+   "instrument": "SENSEX",
+   "question": "N_H",
+   "call": "High breaks (73%)",
+   "chance": 0.7254901960784313,
+   "madeAt": "2026-11-26T10:00:39.016Z",
+   "sessionStartsIST": "27 Nov 2026, 9:15 am IST",
+   "lockedBeforeStartMin": 1064
+  },
+  {
+   "instrument": "SENSEX",
+   "question": "N_L",
+   "call": "Low holds (73%)",
+   "chance": 0.27450980392156865,
+   "madeAt": "2026-11-26T10:00:39.016Z",
+   "sessionStartsIST": "27 Nov 2026, 9:15 am IST",
+   "lockedBeforeStartMin": 1064
+  },
+  {
+   "instrument": "TCS",
+   "question": "N_H",
+   "call": "High breaks (69%)",
+   "chance": 0.6896551724137931,
+   "madeAt": "2026-11-26T10:00:39.016Z",
+   "sessionStartsIST": "27 Nov 2026, 9:15 am IST",
+   "lockedBeforeStartMin": 1064
+  },
+  {
+   "instrument": "TCS",
+   "question": "N_L",
+   "call": "Low holds (79%)",
+   "chance": 0.20689655172413793,
+   "madeAt": "2026-11-26T10:00:39.016Z",
+   "sessionStartsIST": "27 Nov 2026, 9:15 am IST",
+   "lockedBeforeStartMin": 1064
+  }
+ ]
+}
